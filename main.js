@@ -1,8 +1,5 @@
-import sheet from './style.css' assert { type: 'css' };
-document.adoptedStyleSheets = [sheet];
-shadowRoot.adoptedStyleSheets = [sheet];
-import * as THREE from 'https://cdn.skypack.dev/three@0.132.2';
-import { OrbitControls } from 'https://cdn.skypack.dev/-/three@v0.132.2-dLPTyDAYt6rc6aB18fLm/dist=es2019,mode=raw/examples/jsm/controls/OrbitControls.js';
+import * as THREE from 'three';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
 // Setup
 
